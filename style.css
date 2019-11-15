@@ -1,0 +1,278 @@
+/* CSS Documen */
+body{
+    margin : 0;
+    padding: 1em;
+}
+
+#view{
+    width : 1000px;
+    margin : auto;
+    text-align : left;
+    padding : 0px;
+}
+
+.menu{
+    background-color : #432b16;
+    border-bottom : 1px solid #ffffff;
+}
+
+body {
+
+}
+
+a.navbar-brand{
+    color : #e9e0c9;
+}
+
+.navbar{
+    padding : 0px !important;
+}
+.nav-link{                
+    color : #e9e0c9;
+    font-size : 30px;
+    height : 80px;
+    line-height: 60px;
+}
+    
+.nav-link:hover{
+    color : #f5bf5c;
+    transition : 0.5s;
+}
+    
+.active{
+
+}
+    
+.navbar-toggler .fa {
+    color : #ffffff;
+    font-size : 30px;
+}
+
+.navbar-toggler{
+    outline : none !important;
+}
+    
+.info{
+    margin : 24% auto;
+}
+
+
+.infocontact{
+    margin : 24% auto;
+}
+
+.infocontact h1{
+    font-size : 30px;
+    color : #ffffff;
+    border : 1px solid #ff9800 !important;
+    opacity : 1 !important;
+    background-color : #ff0000;
+    
+}
+
+.infocontact a{
+    width : 135px;
+    font-weight : bold;
+    color : #fffff !important;
+    text-decoration : none !important;
+    padding : 15px 25px;
+    margin : 5% 10px;
+    background : #ff0000;
+    display : inline-block;
+}
+
+.infocontact a:hover{
+    opacity : 1;
+    background : black !important;
+    border : 1px solid #ff9800 !important;
+    color : red !important;
+    transition : 0.5s;
+}
+
+.info h1{
+    font-size : 30px;
+    color : #ffffff;
+    border : 1px solid #ff9800 !important;
+    opacity : 1 !important;
+    background-color : rgba(255,0,0,.8);
+}
+ 
+.info a{
+    width : 135px;
+    font-weight : bold;
+    color : #ffffff !important;
+    text-decoration : none !important;
+    padding : 15px 25px;
+    margin : 5% 10px;
+    background : #ff0000;
+    display : inline-block;
+ }
+ 
+.info .second-button{
+    border : 1px solid #ff9800 !important;
+    opacity : 0.9 !important;
+    color : #ffffff !important;
+    transition : 0.5s;
+}
+
+.info .second-button:hover{
+    opacity : 1;
+    background : #000000 !important;
+    color : #ff0000 !important;
+}
+
+.info .first-button{
+    border : 1px solid #ff9800 !important;
+    opacity : 0.9 !important;
+    color : #ffffff !important;
+    transition : 0.5s;
+}
+
+.info .first-button:hover{
+    
+    opacity : 1;
+    background : #000000 !important;
+    color : #ff0000 !important;
+}
+
+
+.footer-widget{
+    min-height : 15%;
+    background-color : #2b2119;
+    padding :50px 0;
+    display : inline-flex;
+    color : #ffffff;
+    border-top : 1px solid #ffffff;
+}
+
+.footer-text{
+    padding-left : 20px;
+    color : #ffffff;
+}
+
+.map{
+    padding-left : 20px;
+    font-size : 30px;
+    color : lightblue;
+}
+
+.map:hover{
+    color : #000000;
+    transition : 0.5s;
+}
+
+.social-icons{
+    margin : 0 20px;
+}
+
+.clock{
+    padding-left : 20px;
+    font-size : 30px;
+    color : lightblue;
+}
+
+.social-icons .fa{
+    padding : 10px;
+    color : lightblue;
+    font-size : 30px;
+    transition : 0.5s;
+}  
+
+.social-icons .fa:hover, .map:hover{
+    color : #f9e0c3;
+    transition : 0.5s;
+}
+
+.row{
+    margin : 0 !important;
+}
+
+
+#left{
+    display : table-cell;
+    width : 250px;
+    margin : auto;
+    padding-left : 30px;
+    padding-bottom : 30px;
+    color : #795121;
+    background-color : #e9e0c9;
+    border-right: 1px solid #c3bdb0;
+}
+
+#left-top{
+    width : 250px;
+    margin-left : -30px;
+    margin-bottom : 10px;
+    padding : 10px 30px;
+    color : #281b11;
+    font-size : 30px;
+    font-weight : bold;
+    background-color : #795226;
+
+}
+
+#right{
+    display : table-cell;
+    width : 750px;
+    margin : auto;
+    padding-left : 30px;
+    padding-bottom : 30px;
+    background-color : #eae3d3;
+}
+
+#left ul{
+    list-style : none;
+    margin-left : -10px;
+    font-size : 20px;
+}
+
+#left ul li{
+    margin-bottom : 10px;
+    margin-left : -60px;
+    padding-left : 60px;
+    padding-bottom : 10px;
+    border-bottom : 1px dashed #a6967c;
+}
+
+#left a{
+    color : #795121;
+    text-decoration : none;
+}
+
+#left a:hover{
+    color : #050505;
+    text-decoration : none;
+}
+
+.collapse li  ul{
+    list-style:none;
+    background: #d7c299;
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width: 133px;
+    z-index:200;
+    text-align : left;
+}
+
+.collapse li:hover ul{
+    display:block;
+}
+
+.collapse li  ul a{
+    margin-left : 10px;
+    text-decoration : none;
+    color : #3b2c20;
+}
+
+.collapse li  ul li{
+    height : 40px;
+    line-height : 40px;
+}
+
+.collapse li  ul li:hover{
+    background-color : #b18968
+}
