@@ -1,0 +1,130 @@
+/* CSS Documen */
+.menu{
+         min-height: %8;
+         max-height:%10;
+         //background:#1A1B17;
+         background:red;
+}
+body {
+  background-image: url('../images/contatcs/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.nav-link{                
+    color:white;
+    font-size: 30px;
+    }
+    
+.nav-link:hover{
+    color:black;
+    transition: 0.5s;
+    }
+    
+.active{
+    color:white;//Home button
+    //size:20px;
+    }
+    
+.navbar-toggler .fa {
+    color:white;
+    font-size: 30px;
+    }
+    
+.navbar-toggler{
+    outline:none !important;
+    }
+
+    
+.info{
+margin:24% auto;
+}
+
+.infocontact{
+    margin:24% auto;
+}
+
+.infocontact h1{
+    font-size:30px;
+    color:white;
+    border: 1px solid #ff9800 !important;
+    opacity:1 !important;
+    background-color: rgba(255,0,0);
+    
+}
+.infocontact a{
+width: 135px;
+font-weight: bold;
+color:#fff !important;
+text-decoration: none !important;
+padding:15px 25px;
+margin:5% 10px;
+background:red;
+display:inline-block;
+}
+.infocontact a:hover{
+    opacity:1;
+    background:black !important;
+    border: 1px solid #ff9800 !important;
+    color:red !important;
+    transition:0.5s;
+}
+
+
+
+
+.footer-widget{
+    min-height: 15%;
+    background-image:linear-gradient(to right, #ff9800,#a46406);
+    padding :50px 0;
+    display:inline-flex;
+    color:#fff;
+}
+.footer-text{
+padding-left:20px;
+color:white;
+}
+.map{
+padding-left:20px;
+font-size:30px;
+color:lightblue;
+}
+.map:hover{
+color:black;
+transition:0.5s;}
+
+.social-icons{
+margin 0 20px;
+}
+
+.clock{
+padding-left:20px;
+font-size:30px;
+color:lightblue;
+}
+
+.social-icons .fa{
+padding: 10px;
+color:lightblue;
+font-size:30px;
+transition:0.5s;
+}  
+
+.social-icons .fa:hover
+{
+color:black;
+transition:0.5s;}
+
+.row
+{
+margin:0 !important;
+}
+
+@media only screen and (max-width:960px){
+  .footer-widget{
+      background-image:linear-gradient (#ff9800,#a46406);
+}
+
+
+
