@@ -57,22 +57,19 @@ window.onload = function(){
 }
 
 function basicEvent(container, event) {
-    container.innerHTML =  '<div class = "event-right-container">';
     for(i=0; i<event.title.length; i++){
         if(typeof(event.start[i])=='string'){
             container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "images/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + event.start[i] + '</div>' +
                                         '</div>';
             }
         }
-        container.innerHTML  += '</div>';
 }
 
 function eventInProgress(container, event) {
-  container.innerHTML =  '<div class = "event-right-container">';
         var date = new Date();
         for(i=0; i<event.title.length; i++){
             if((typeof(event.start[i])=='object') && (event.end[i].getTime() >= date)){
@@ -99,19 +96,17 @@ function eventInProgress(container, event) {
                 }
 
                 container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "images/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + startDay + '/' + startMonth + '/' + startYear + ' - ' + endDay + '/' + endMonth + '/' + endYear + '</div>' +
                                         '</div>';
             }
         }
-        container.innerHTML  += '</div>';
 }
 
 
 function terminatedEvents(container, event) {
-  container.innerHTML =  '<div class = "event-right-container">';
         var date = new Date();
         for(i=0; i<event.title.length; i++){
             if((typeof(event.start[i])=='object') && (event.end[i].getTime() < date)){
@@ -138,12 +133,11 @@ function terminatedEvents(container, event) {
                 }
 
                 container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "images/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + startDay + '/' + startMonth + '/' + startYear + ' - ' + endDay + '/' + endMonth + '/' + endYear + '</div>' +
                                         '</div>';
             }
         }
-        container.innerHTML  += '</div>';
 }
