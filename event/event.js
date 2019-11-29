@@ -61,7 +61,7 @@ function basicEvent(container, event) {
     for(i=0; i<event.title.length; i++){
         if(typeof(event.start[i])=='string'){
             container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "img/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + event.start[i] + '</div>' +
@@ -99,7 +99,7 @@ function eventInProgress(container, event) {
                 }
 
                 container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "img/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + startDay + '/' + startMonth + '/' + startYear + ' - ' + endDay + '/' + endMonth + '/' + endYear + '</div>' +
@@ -138,7 +138,7 @@ function terminatedEvents(container, event) {
                 }
 
                 container.innerHTML += '<div class = "event-right-content">' +
-                                               '<img src = "img/' + event.image[i] + '.jpg" class = "event-right-image">' +
+                                               '<img src = "../images/event/' + event.image[i] + '.jpg" class = "event-right-image">' +
                                                '<div class = "event-right-title"><h2>' + event.title[i] +'</h2></div>' +
                                                '<div class = "event-right-description">' + event.description[i] +'</div>' +
                                                '<div class = "event-right-date">' + startDay + '/' + startMonth + '/' + startYear + ' - ' + endDay + '/' + endMonth + '/' + endYear + '</div>' +
