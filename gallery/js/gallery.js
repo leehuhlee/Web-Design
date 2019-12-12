@@ -38,7 +38,6 @@ window.onload = function(){
     var container = document.getElementById('gallery-right-main');
 
     if(container != null){
-        console.log("A");
         mainGallery(container, gallery);
     }
 

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../images/mainback.jpg");
+  background-image: url("../images/main/mainback.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -35,12 +35,10 @@ body {
 .navbar-toggler{
     outline:none !important;
     }
-    
+
+/*Main Page CSS Starts*/
 .info{
     margin:10% auto;
-}
-.slide{
-    margin:24% auto;
 }
 .info h1{
     font-size:30px;
@@ -48,23 +46,6 @@ body {
     border: 1px solid #ff9800 !important;
     opacity:1 !important;
     background-color: rgba(255,0,0,.8);
-    
-}
-
-.special h1{
-    margin:10% 10px;
-    font-size:30px;
-    color:white;
-    border: 1px solid #ff9800 !important;
-    opacity:1 !important;
-    background-color: rgba(255,0,0,.8);
-
-}
-.special-images{
-    display:inline-block;
-    height: 150px;
-    width: 150px;
-    margin: 1%;
 }
 .info a{
 width: 135px;
@@ -75,83 +56,95 @@ padding:15px 25px;
 margin:5% 10px;
 background:red;
 display:inline-block;
- }
- 
-.info .second-button{
+}
+.info .button{
+    width: 300px;
     border: 1px solid #ff9800 !important;
     opacity:0.9 !important;
     color:white !important;
     transition:0.5s;
 }
-.info .second-button:hover{
+.info .button:hover{
+    width: 400px;
     opacity:1;
     background:black !important;
     color:red !important;
 }
-.info .first-button{
+.special h1{
+    margin:10% auto;
+    font-size:30px;
+    color:white;
     border: 1px solid #ff9800 !important;
-    opacity:0.9 !important;
-    color:white !important;
-    transition:0.5s;
+    opacity:1 !important;
+    background-color: rgba(255,0,0,.8);
 }
-.info .first-button:hover{
-    
-    opacity:1;
-    background:black !important;
-    color:red !important;
+.special-images{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    margin: 2% auto;
+    transition: 0.5s;
 }
 
+.special-images:hover{
+    display:inline-block;
+    height: 160px;
+    width: 160px;
+    margin-left: 1% auto;
+}
+/*Main Page CSS Ends*/
 
 .footer-widget{
     min-height: 15%;
-    background-image:linear-gradient(to right, #ff9800,#a46406);
+    background-image:linear-gradient(to right, red,orange);
     padding :50px 0;
     display:inline-flex;
     color:#fff;
 }
 .footer-text{
-padding-left:20px;
-color:white;
+    padding-left:20px;
+    color:white;
 }
 .map{
-padding-left:20px;
-font-size:30px;
-color:lightblue;
+    padding-left:20px;
+    font-size:30px;
+    color:lightblue;
 }
 .map:hover{
-color:black;
-transition:0.5s;}
+    color:black;
+    transition:0.5s;
+}
 
 .social-icons{
-margin 0 20px;
+    margin 0 20px;
 }
 
 .clock{
-padding-left:20px;
-font-size:30px;
-color:lightblue;
+    padding-left:20px;
+    font-size:30px;
+    color:lightblue;
 }
 
 .social-icons .fa{
-padding: 10px;
-color:lightblue;
-font-size:30px;
-transition:0.5s;
+    padding: 10px;
+    color:lightblue;
+    font-size:30px;
+    transition:0.5s;
 }  
 
-.social-icons .fa:hover
-{
-color:black;
-transition:0.5s;}
+.social-icons .fa:hover{
+    color:black;
+    transition:0.5s;
+}
 
-.row
-{
-margin:0 !important;
+.row{
+    margin:0 !important;
 }
 
 @media only screen and (max-width:960px){
   .footer-widget{
       background-image:linear-gradient (#ff9800,#a46406);
+    }
 }
 
 

@@ -1,0 +1,184 @@
+.menu{
+    min-height: %8;
+    max-height:%10;
+    background:red;
+}
+
+body {
+  background-image: url("../../../images/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.nav-link{                
+    color:white;
+    font-size: 30px;
+    }
+    
+.nav-link:hover{
+    color:black;
+    transition: 0.5s;
+    }
+    
+.active{
+    color:white;//Home button
+    //size:20px;
+    }
+    
+.navbar-toggler .fa {
+    color:white;
+    font-size: 30px;
+    }
+    
+.navbar-toggler{
+    outline:none !important;
+    }
+
+header {
+    position : fixed;
+    width : 100%
+}
+
+/*Bev-des Css starts*/
+#menu{
+    margin-top : 150px;
+    margin-bottom : 10px;
+}
+#menu-left{
+    display : table-cell;
+    width : 250px;
+    margin : auto;
+    padding-left : 30px;
+    padding-bottom : 30px;
+    background-color : #f8f9fa;
+}
+#menu-left ul{
+    list-style : none;
+    margin-left : -10px;
+    font-size : 20px;
+}
+#menu-left ul li{
+    margin-bottom : 10px;
+    margin-left : -60px;
+    padding-left : 60px;
+    padding-bottom : 10px;
+    border-bottom : 1px dashed #888888;
+}
+#menu-left-top{
+    width : 250px;
+    margin-left : -30px;
+    margin-bottom : 10px;
+    padding : 10px 30px;
+    font-size : 30px;
+    font-weight : bold;
+    background-color : red;
+}
+#menu-left-top a{
+    color : white;
+    text-decoration : none;
+}
+#menu-left-bottom a{
+    color : black;
+    text-decoration : none;
+}
+#menu-left-bottom a:hover{
+    color : #888888;
+    text-decoration : none;
+}
+#menu-right, #event-right-progress, #event-right-terminated{
+    display : table-cell;
+    width : 850px;
+    margin : auto;
+    padding-left : 30px;
+    padding-bottom : 30px;
+    background-color : #f8f9fac7;
+}
+.food{
+    border: 10px solid rgba(83%,83%,83%,1);
+    display: block;
+    background-color: rgba(225,225,225,0.7);
+}
+.food-img{
+    width:400px;
+    height:300px;
+    margin-top:10px;
+    margin-left:10px;
+    border: 5px solid rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.food-img:hover{
+    border: 5px solid rgba(255,0,0,0.5);
+}
+#baklava h3{
+    color: red;  
+}
+#baklava h3,p{
+    text-align: left;
+    
+}
+.back{
+    text-align:left;
+    font-size:30px;
+    margin: 5px;
+}
+.back a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.back a{
+    color: red;
+}
+/*Bev-des Css Ends*/
+
+.footer-widget{
+    min-height: 15%;
+    background-image:linear-gradient(to right, red,orange);
+    padding :50px 0;
+    display:inline-flex;
+    color:#fff;
+}
+.footer-text{
+    padding-left:20px;
+    color:white;
+}
+.map{
+    padding-left:20px;
+    font-size:30px;
+    color:lightblue;
+}
+.map:hover{
+    color:black;
+    transition:0.5s;
+}
+
+.social-icons{
+    margin 0 20px;
+}
+
+.clock{
+    padding-left:20px;
+    font-size:30px;
+    color:lightblue;
+}
+.social-icons .fa{
+    padding: 10px;
+    color:lightblue;
+    font-size:30px;
+    transition:0.5s;
+}  
+
+.social-icons .fa:hover{
+    color:black;
+    transition:0.5s;
+}
+
+.row{
+    margin:0 !important;
+}
+
+@media only screen and (max-width:960px){
+  .footer-widget{
+      background-image:linear-gradient (#ff9800,#a46406);
+    }
+}
